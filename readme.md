@@ -56,16 +56,6 @@ and a binderhub server
 [binder.gesis.org](binder.gesis.org),
 [binder.pangeo.io](binder.pangeo.io)).
 
-
-#### JupyterLab 
-  
-  - [![launch @ gke.mybinder.org][badge-jupyterlab-gke-mybinder-org]](https://mybinder.org/v2/gh/thedatasociety/lab-template/master)
-
-  - ![launch @ ovh.mybinder.org][badge-jupyterlab-ovh-mybinder-org]
-
-  - ![launch @ gesis.org][badge-jupyterlab-gesis-org]
-
-  - ![launch @ pangeo.org][badge-jupyterlab-pangeo-io]
     
 
 #### Jupyter 
@@ -78,16 +68,26 @@ and a binderhub server
 
   - ![launch @ pangeo.org][badge-jupyter-pangeo-io]
 
+
+#### JupyterLab 
+  
+  - [![launch @ gke.mybinder.org][badge-jupyterlab-gke-mybinder-org]](https://mybinder.org/v2/gh/thedatasociety/lab-template/master?urlpath=lab)
+
+  - [![launch @ ovh.mybinder.org][badge-jupyterlab-ovh-mybinder-org]](https://mybinder.org/v2/gh/thedatasociety/lab-template/master?urlpath=lab)
+
+  - [![launch @ gesis.org][badge-jupyterlab-gesis-org]](https://mybinder.org/v2/gh/thedatasociety/lab-template/master?urlpath=lab)
+
+  - [![launch @ pangeo.org][badge-jupyterlab-pangeo-io]](https://mybinder.org/v2/gh/thedatasociety/lab-template/master?urlpath=lab)
       
 #### Rstudio 
   
-  - ![launch @ gke.mybinder.org][badge-rstudio-gke-mybinder-org]
+  - [![launch @ gke.mybinder.org][badge-rstudio-gke-mybinder-org]](https://mybinder.org/v2/gh/thedatasociety/lab-template/master?urlpath=rstudio)
 
-  - ![launch @ ovh.mybinder.org][badge-rstudio-ovh-mybinder-org]
+  - [![launch @ ovh.mybinder.org][badge-rstudio-ovh-mybinder-org]](https://mybinder.org/v2/gh/thedatasociety/lab-template/master?urlpath=rstudio)
 
-  - ![launch @ gesis.org][badge-rstudio-gesis-org]
+  - [![launch @ gesis.org][badge-rstudio-gesis-org]](https://mybinder.org/v2/gh/thedatasociety/lab-template/master?urlpath=rstudio)
 
-  - ![launch @ pangeo.org][badge-rstudio-pangeo-io]
+  - [![launch @ pangeo.org][badge-rstudio-pangeo-io]](https://mybinder.org/v2/gh/thedatasociety/lab-template/master?urlpath=rstudio)
 
       
 #### Shiny 
