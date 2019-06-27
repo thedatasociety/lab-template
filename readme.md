@@ -71,13 +71,13 @@ and a binderhub server
 
 #### JupyterLab 
   
-  - [![launch @ gke.mybinder.org][badge-jupyterlab-gke-mybinder-org]](https://mybinder.org/v2/gh/thedatasociety/lab-template/master?urlpath=lab)
+  - ![launch @ gke.mybinder.org][badge-jupyterlab-gke-mybinder-org]
 
-  - [![launch @ ovh.mybinder.org][badge-jupyterlab-ovh-mybinder-org]](https://mybinder.org/v2/gh/thedatasociety/lab-template/master?urlpath=lab)
+  - ![launch @ ovh.mybinder.org][badge-jupyterlab-ovh-mybinder-org]
 
-  - [![launch @ gesis.org][badge-jupyterlab-gesis-org]](https://mybinder.org/v2/gh/thedatasociety/lab-template/master?urlpath=lab)
+  - ![launch @ gesis.org][badge-jupyterlab-gesis-org]
 
-  - [![launch @ pangeo.org][badge-jupyterlab-pangeo-io]](https://mybinder.org/v2/gh/thedatasociety/lab-template/master?urlpath=lab)
+  - ![launch @ pangeo.io][badge-jupyterlab-pangeo-io]
       
 #### Rstudio 
   
@@ -85,9 +85,9 @@ and a binderhub server
 
   - [![launch @ ovh.mybinder.org][badge-rstudio-ovh-mybinder-org]](https://ovh.mybinder.org/v2/gh/thedatasociety/lab-template/master?urlpath=rstudio)
 
-  - [![launch @ gesis.org][badge-rstudio-gesis-org]](https://binder.gesis.org/v2/gh/thedatasociety/lab-template/master?urlpath=rstudio)
+  - [![launch @ gesis.org][badge-rstudio-gesis-org]](https://notebooks.gesis.org/binder/v2/gh/thedatasociety/lab-template/master?urlpath=rstudio)
 
-  - [![launch @ pangeo.org][badge-rstudio-pangeo-io]](https://binder.pangeo.org/v2/gh/thedatasociety/lab-template/master?urlpath=rstudio)
+  - [![launch @ pangeo.io][badge-rstudio-pangeo-io]](https://binder.pangeo.io/v2/gh/thedatasociety/lab-template/master?urlpath=rstudio)
 
       
 #### Shiny 
@@ -98,7 +98,7 @@ and a binderhub server
 
   - ![launch @ gesis.org][badge-shiny-gesis-org]
 
-  - ![launch @ pangeo.org][badge-shiny-pangeo-io]
+  - ![launch @ pangeo.io][badge-shiny-pangeo-io]
 
       
 #### Nteract 
@@ -109,7 +109,7 @@ and a binderhub server
 
   - ![launch @ gesis.org][badge-nteract-gesis-org]
 
-  - ![launch @ pangeo.org][badge-nteract-pangeo-io]
+  - ![launch @ pangeo.io][badge-nteract-pangeo-io]
 
 
 #### Stencila 
@@ -120,7 +120,7 @@ and a binderhub server
 
   - ![launch @ gesis.org][badge-stencila-gesis-org]
 
-  - ![launch @ pangeo.org][badge-stencila-pangeo-io]
+  - ![launch @ pangeo.io][badge-stencila-pangeo-io]
 
     
 ### Launch this lab locally
