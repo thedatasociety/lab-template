@@ -1,3 +1,6 @@
+install.packages("devtools")
 install.packages("ggplot2")
 install.packages("plotly")
+install.packages("pbdZMQ")
+install.packages("repr")
 install.packages("shinydashboard")
