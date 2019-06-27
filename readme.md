@@ -156,7 +156,7 @@ Each environment will be available at a specific path, as follows:
 
 * **Jupyter**: [http://0.0.0.0:8888/tree](http://0.0.0.0:8888/tree) 
 
-* **JupyterLab**:[http://0.0.0.0:8888/lab](http://0.0.0.0:8888/lab)  
+* **JupyterLab**: [http://0.0.0.0:8888/lab](http://0.0.0.0:8888/lab)  
 
 * **Nteract**: [http://0.0.0.0:8888/nteract](http://0.0.0.0:8888/nteract)  
 
