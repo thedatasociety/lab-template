@@ -59,7 +59,7 @@ and a binderhub server
 
 #### JupyterLab 
   
-  - ![launch @ gke.mybinder.org][badge-jupyterlab-gke-mybinder-org]
+  - [![launch @ gke.mybinder.org][badge-jupyterlab-gke-mybinder-org]](https://mybinder.org/v2/gh/thedatasociety/lab-template/master)
 
   - ![launch @ ovh.mybinder.org][badge-jupyterlab-ovh-mybinder-org]
 
