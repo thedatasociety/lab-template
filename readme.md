@@ -81,13 +81,13 @@ and a binderhub server
       
 #### Rstudio 
   
-  - [![launch @ gke.mybinder.org][badge-rstudio-gke-mybinder-org]](https://mybinder.org/v2/gh/thedatasociety/lab-template/master?urlpath=rstudio)
+  - [![launch @ gke.mybinder.org][badge-rstudio-gke-mybinder-org]](https://gke.mybinder.org/v2/gh/thedatasociety/lab-template/master?urlpath=rstudio)
 
-  - [![launch @ ovh.mybinder.org][badge-rstudio-ovh-mybinder-org]](https://mybinder.org/v2/gh/thedatasociety/lab-template/master?urlpath=rstudio)
+  - [![launch @ ovh.mybinder.org][badge-rstudio-ovh-mybinder-org]](https://ovh.mybinder.org/v2/gh/thedatasociety/lab-template/master?urlpath=rstudio)
 
-  - [![launch @ gesis.org][badge-rstudio-gesis-org]](https://mybinder.org/v2/gh/thedatasociety/lab-template/master?urlpath=rstudio)
+  - [![launch @ gesis.org][badge-rstudio-gesis-org]](https://binder.gesis.org/v2/gh/thedatasociety/lab-template/master?urlpath=rstudio)
 
-  - [![launch @ pangeo.org][badge-rstudio-pangeo-io]](https://mybinder.org/v2/gh/thedatasociety/lab-template/master?urlpath=rstudio)
+  - [![launch @ pangeo.org][badge-rstudio-pangeo-io]](https://binder.pangeo.org/v2/gh/thedatasociety/lab-template/master?urlpath=rstudio)
 
       
 #### Shiny 
