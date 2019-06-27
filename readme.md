@@ -13,16 +13,16 @@ Template for *labs* with practical data science and engineering examples.
 <!-- MarkdownTOC autolink=true -->
 
 - [Running this lab right now](#running-this-lab-right-now)
-    - [Launch this lab on a binderhub cloud instance](#launch-this-lab-on-a-binderhub-cloud-instance)
-        - [JupyterLab](#jupyterlab)
-        - [Jupyter](#jupyter)
-        - [Rstudio](#rstudio)
-        - [Shiny](#shiny)
-        - [Nteract](#nteract)
-        - [Stencila](#stencila)
-    - [Launch this lab locally](#launch-this-lab-locally)
-        - [Via our Docker image](#via-our-docker-image)
-        - [Via repo2docker](#via-repo2docker)
+  - [Launch this lab on a binderhub cloud instance](#launch-this-lab-on-a-binderhub-cloud-instance)
+    - [JupyterLab](#jupyterlab)
+    - [Jupyter](#jupyter)
+    - [Rstudio](#rstudio)
+    - [Shiny](#shiny)
+    - [Nteract](#nteract)
+    - [Stencila](#stencila)
+  - [Launch this lab locally](#launch-this-lab-locally)
+    - [Via our Docker image](#via-our-docker-image)
+    - [Via repo2docker](#via-repo2docker)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -139,9 +139,7 @@ Alternatively, you can map you local home folder into the container:
 docker run -it -v $(echo ~):/jupyter/data/ -p 8888:8888 thedatasociety/lab-template
 ```
 
-Access the interface by going to [http://0.0.0.0:8888](http://0.0.0.0:8888). 
-
-The *Dockerfile* used to build the image can be found [here](https://github.com/thedatasociety/lab-hadoop/tree/master/resources/docker/).
+The *Dockerfile* used to build the image can be found [here](https://github.com/thedatasociety/lab-template/tree/master/resources/docker/).
 
 
 #### Via [repo2docker](https://github.com/jupyter/repo2docker)
@@ -151,8 +149,7 @@ The *Dockerfile* used to build the image can be found [here](https://github.com/
 repo2docker -p 8888:8888 -v $(echo ~):./home https://github.com/thedatasociety/lab-template jupyter-lab --ip 0.0.0.0 --NotebookApp.token=''
 ```
 
-
-Each environment will be available at a specific path, as follows:
+For both options, each environment will be available at a specific path, as follows:
 
 * **Jupyter**: [http://0.0.0.0:8888/tree](http://0.0.0.0:8888/tree) 
 
