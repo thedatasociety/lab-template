@@ -60,24 +60,24 @@ and a binderhub server
 
 #### Jupyter 
   
-  - ![launch @ gke.mybinder.org][badge-jupyter-gke-mybinder-org]
+  - [![launch @ gke.mybinder.org][badge-jupyter-gke-mybinder-org]](https://gke.mybinder.org/v2/gh/thedatasociety/lab-template/master?urlpath=tree)
 
-  - ![launch @ ovh.mybinder.org][badge-jupyter-ovh-mybinder-org]
+  - [![launch @ ovh.mybinder.org][badge-jupyter-ovh-mybinder-org]](https://ovh.mybinder.org/v2/gh/thedatasociety/lab-template/master?urlpath=tree)
 
-  - ![launch @ gesis.org][badge-jupyter-gesis-org]
+  - [![launch @ gesis.org][badge-jupyter-gesis-org]](https://notebooks.gesis.org/binder/v2/gh/thedatasociety/lab-template/master?urlpath=tree)
 
-  - ![launch @ pangeo.org][badge-jupyter-pangeo-io]
+  - [![launch @ pangeo.org][badge-jupyter-pangeo-io]](https://binder.pangeo.io/v2/gh/thedatasociety/lab-template/master?urlpath=tree)
 
 
 #### JupyterLab 
   
-  - ![launch @ gke.mybinder.org][badge-jupyterlab-gke-mybinder-org]
+  - [![launch @ gke.mybinder.org][badge-jupyterlab-gke-mybinder-org]](https://gke.mybinder.org/v2/gh/thedatasociety/lab-template/master?urlpath=lab)
 
-  - ![launch @ ovh.mybinder.org][badge-jupyterlab-ovh-mybinder-org]
+  - [![launch @ ovh.mybinder.org][badge-jupyterlab-ovh-mybinder-org]](https://ovh.mybinder.org/v2/gh/thedatasociety/lab-template/master?urlpath=lab)
 
-  - ![launch @ gesis.org][badge-jupyterlab-gesis-org]
+  - [![launch @ gesis.org][badge-jupyterlab-gesis-org]](https://notebooks.gesis.org/binder/v2/gh/thedatasociety/lab-template/master?urlpath=lab)
 
-  - ![launch @ pangeo.io][badge-jupyterlab-pangeo-io]
+  - [![launch @ pangeo.io][badge-jupyterlab-pangeo-io]](https://binder.pangeo.io/v2/gh/thedatasociety/lab-template/master?urlpath=lab)
       
 #### Rstudio 
   
@@ -92,35 +92,35 @@ and a binderhub server
       
 #### Shiny 
   
-  - ![launch @ gke.mybinder.org][badge-shiny-gke-mybinder-org]
+  - [![launch @ gke.mybinder.org][badge-shiny-gke-mybinder-org]](https://gke.mybinder.org/v2/gh/thedatasociety/lab-template/master?urlpath=shiny)
 
-  - ![launch @ ovh.mybinder.org][badge-shiny-ovh-mybinder-org]
+  - [![launch @ ovh.mybinder.org][badge-shiny-ovh-mybinder-org]](https://ovh.mybinder.org/v2/gh/thedatasociety/lab-template/master?urlpath=shiny)
 
-  - ![launch @ gesis.org][badge-shiny-gesis-org]
+  - [![launch @ gesis.org][badge-shiny-gesis-org]](https://notebooks.gesis.org/binder/v2/gh/thedatasociety/lab-template/master?urlpath=shiny)
 
-  - ![launch @ pangeo.io][badge-shiny-pangeo-io]
+  - [![launch @ pangeo.io][badge-shiny-pangeo-io]](https://binder.pangeo.io/v2/gh/thedatasociety/lab-template/master?urlpath=shiny)
 
       
 #### Nteract 
   
-  - ![launch @ gke.mybinder.org][badge-nteract-gke-mybinder-org]
+  - [![launch @ gke.mybinder.org][badge-nteract-gke-mybinder-org]](https://gke.mybinder.org/v2/gh/thedatasociety/lab-template/master?urlpath=nteract)
 
-  - ![launch @ ovh.mybinder.org][badge-nteract-ovh-mybinder-org]
+  - [![launch @ ovh.mybinder.org][badge-nteract-ovh-mybinder-org]](https://ovh.mybinder.org/v2/gh/thedatasociety/lab-template/master?urlpath=nteract)
 
-  - ![launch @ gesis.org][badge-nteract-gesis-org]
+  - [![launch @ gesis.org][badge-nteract-gesis-org]](https://notebooks.gesis.org/binder/v2/gh/thedatasociety/lab-template/master?urlpath=nteract)
 
-  - ![launch @ pangeo.io][badge-nteract-pangeo-io]
+  - [![launch @ pangeo.io][badge-nteract-pangeo-io]](https://binder.pangeo.io/v2/gh/thedatasociety/lab-template/master?urlpath=nteract)
 
 
 #### Stencila 
   
-  - ![launch @ gke.mybinder.org][badge-stencila-gke-mybinder-org]
+  - [![launch @ gke.mybinder.org][badge-stencila-gke-mybinder-org]](https://gke.mybinder.org/v2/gh/thedatasociety/lab-template/master?urlpath=stencila)
 
-  - ![launch @ ovh.mybinder.org][badge-stencila-ovh-mybinder-org]
+  - [![launch @ ovh.mybinder.org][badge-stencila-ovh-mybinder-org]](https://ovh.mybinder.org/v2/gh/thedatasociety/lab-template/master?urlpath=stencila)
 
-  - ![launch @ gesis.org][badge-stencila-gesis-org]
+  - [![launch @ gesis.org][badge-stencila-gesis-org]](https://notebooks.gesis.org/binder/v2/gh/thedatasociety/lab-template/master?urlpath=stencila)
 
-  - ![launch @ pangeo.io][badge-stencila-pangeo-io]
+  - [![launch @ pangeo.io][badge-stencila-pangeo-io]](https://binder.pangeo.io/v2/gh/thedatasociety/lab-template/master?urlpath=stencila)
 
     
 ### Launch this lab locally
