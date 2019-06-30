@@ -13,14 +13,14 @@ A *lab* template for practical data science and engineering examples.
 <!-- MarkdownTOC autolink=true -->
 
 - [Running this lab right now](#running-this-lab-right-now)
-  - [Launch this lab on a binderhub cloud instance](#launch-this-lab-on-a-binderhub-cloud-instance)
+  - [Launch this lab on a binderhub instance](#launch-this-lab-on-a-binderhub-instance)
     - [JupyterLab](#jupyterlab)
     - [Jupyter](#jupyter)
     - [Rstudio](#rstudio)
     - [Shiny](#shiny)
     - [Nteract](#nteract)
     - [Stencila](#stencila)
-  - [Launch this lab locally](#launch-this-lab-locally)
+  - [Launch this lab locally using Docker](#launch-this-lab-locally)
     - [Via our Docker image](#via-our-docker-image)
     - [Via repo2docker](#via-repo2docker)
 - [Contributing](#contributing)
@@ -40,7 +40,7 @@ The options for starting running this lab right now are:
 4. building a Docker image and starting a Docker container via [repo2docker](https://github.com/jupyter/repo2docker).
 
 
-### Launch this lab on a [binderhub](https://github.com/jupyterhub/binderhub) cloud instance
+### Launch this lab on a [binderhub](https://github.com/jupyterhub/binderhub) instance
 
 You can start playing with this lab immediately. Just choose an environment 
 ([Jupyter](https://jupyter.org/), 
@@ -123,7 +123,7 @@ and a binderhub server
   - [![launch @ pangeo.io][badge-stencila-pangeo-io]](https://binder.pangeo.io/v2/gh/thedatasociety/lab-template/master?urlpath=stencila)
 
     
-### Launch this lab locally
+### Launch this lab locally using Docker
 
 #### Via our Docker image
 
