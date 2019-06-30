@@ -6,7 +6,7 @@
 
 # lab-template
 
-Template for *labs* with practical data science and engineering examples.
+A *lab* template for practical data science and engineering examples.
 
 ## Table of contents
 
