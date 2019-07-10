@@ -1,3 +1,7 @@
+[Repo2Docker] Looking for repo2docker_config in /home/matheus/git/github/org.thedatasociety/lab-template
+Picked Git content provider.
+Cloning into '/tmp/repo2docker59nzdg36'...
+
 FROM buildpack-deps:bionic
 
 # avoid prompts from apt
@@ -140,8 +144,28 @@ USER root
 COPY src/ ${REPO_DIR}
 RUN chown -R ${NB_USER}:${NB_USER} ${REPO_DIR}
 
+# The rest of the environment
+ENV STENCILA_ARCHIVE_DIR ${REPO_DIR}/labs
+ENV STENCILA_ARCHIVE lab2.stencila
 # Run assemble scripts! These will actually build the specification
 # in the repository into the image.
+RUN apt-get -qq update && \
+apt-get install --yes --no-install-recommends htop vim curl wget && \
+apt-get -qq purge && \
+apt-get -qq clean && \
+rm -rf /var/lib/apt/lists/*
+
+USER ${NB_USER}
+RUN ${KERNEL_PYTHON_PREFIX}/bin/pip install --no-cache https://github.com/stencila/py/archive/f1260796.tar.gz && \
+${KERNEL_PYTHON_PREFIX}/bin/python -m stencila register
+
+RUN ${NB_PYTHON_PREFIX}/bin/pip install --no-cache nbstencilaproxy==0.1.1 && \
+jupyter serverextension enable --sys-prefix --py nbstencilaproxy && \
+jupyter nbextension install    --sys-prefix --py nbstencilaproxy && \
+jupyter nbextension enable     --sys-prefix --py nbstencilaproxy
+
+RUN ${KERNEL_PYTHON_PREFIX}/bin/pip install --no-cache-dir -r "binder/requirements.txt"
+USER root
 RUN echo "options(repos = c(CRAN='https://mran.microsoft.com/snapshot/2019-04-10'), download.file.method = 'libcurl')" > /etc/R/Rprofile.site
 
 RUN install -o ${NB_USER} -g ${NB_USER} -d /var/log/shiny-server && \
@@ -163,6 +187,10 @@ LABEL repo2docker.ref="None"
 
 # We always want containers to run as non-root
 USER ${NB_USER}
+
+# Make sure that postBuild scripts are marked executable before executing them
+RUN chmod +x binder/postBuild
+RUN ./binder/postBuild
 
 # Add start script
 # Add entrypoint
