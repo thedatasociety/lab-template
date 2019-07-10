@@ -15,6 +15,9 @@
  <a href="https://twitter.com/thedatasociety" target="_blank">
    <img src="https://raw.githubusercontent.com/thedatasociety/lab-template/master/resources/images/twitter-icon.png" width="30px" alt="our twitter">
  </a>
+ <a href="https://quiltdata.com/package/thedatasociety/" target="_blank">
+   <img src="https://raw.githubusercontent.com/thedatasociety/lab-template/master/resources/images/quilt-icon.png" width="30px" alt="quilt packages">
+ </a> 
 </div>
 <!-- /ds header -->
 
