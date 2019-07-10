@@ -37,6 +37,10 @@ jupyter labextension install @jupyterlab/plotly-extension --no-build
 # Table of contents Jupyter Lab Extension
 jupyter labextension install @jupyterlab/toc --no-build 
 
+# Jupyter/Jupyterlab extension for proxying internal applications
+jupyter serverextension enable --sys-prefix jupyter_server_proxy
+jupyter labextension install jupyterlab-server-proxy
+
 # JupyterLab extension mimerenderer to render HTML files in IFrame Tab. https://github.com/mflevine/jupyterlab_html
 jupyter labextension install @mflevine/jupyterlab_html --no-build 
 

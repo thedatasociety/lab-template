@@ -18,6 +18,8 @@ jupyterlab_iframe
 ipywidgets
 RISE
 
+jupyter-server-proxy
+
 ###############################################################
 #          /jupyter/jupyterlab extensions/kernels              #
 ###############################################################
