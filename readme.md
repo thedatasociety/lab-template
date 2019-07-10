@@ -20,20 +20,20 @@
 
 # lab-template
 
-A repository template for launching specific interfaces on [binderhub](https://github.com/jupyterhub/binderhub) instances.
+A repository for launching laboratories.
 
 ## Table of contents
 
 <!-- MarkdownTOC autolink=true -->
 
-- [Launching this repository on a binderhub instance](#launching-this-repository-on-a-binderhub-instance)
+- [Launching this laboratory on a binderhub instance](#launching-this-laboratory-on-a-binderhub-instance)
   - [Jupyter](#jupyter)
   - [JupyterLab](#jupyterlab)
   - [Rstudio](#rstudio)
   - [Shiny](#shiny)
   - [Nteract](#nteract)
   - [Stencila](#stencila)
-- [Launch this lab locally using Docker](#launch-this-lab-locally-using-docker)
+- [Launch this laboratory locally using Docker](#launch-this-laboratory-locally-using-docker)
   - [Via our Docker image](#via-our-docker-image)
   - [Via repo2docker](#via-repo2docker)
   - [Accessing your Docker container](#accessing-your-docker-container)
@@ -43,7 +43,7 @@ A repository template for launching specific interfaces on [binderhub](https://g
 <!-- /MarkdownTOC -->
 
 
-### Launching this repository on a [binderhub](https://github.com/jupyterhub/binderhub) instance
+### Launching this laboratory on a [binderhub](https://github.com/jupyterhub/binderhub) instance
 
 [Binderhub](https://github.com/jupyterhub/binderhub) uses [repo2docker](https://github.com/jupyter/repo2docker) for launching and serving the computational environments. Repo2docker supports the following interfaces: 
 - [Jupyter](https://jupyter.org/)
@@ -126,7 +126,7 @@ The list below provides the badges and the hyperlinks for launching one of the s
 
   - [![launch @ pangeo.io][badge-stencila-pangeo-io]](https://binder.pangeo.io/v2/gh/thedatasociety/lab-template/master?urlpath=stencila)
 
-### Launch this lab locally using Docker
+### Launch this laboratory locally using Docker
 
 We offer here two options for launching this lab locally: via our Docker image or via repo2docker.
 Before firing up your container, make sure your local user is in the `docker` group. Please refer to this Docker [documentation](https://docs.docker.com/install/linux/linux-postinstall/) for more details. **It is strongly advised to not to run the container as root**. 
@@ -156,7 +156,7 @@ The *Dockerfile* used to build the image can be found [here](https://github.com/
 
 #### Via [repo2docker](https://github.com/jupyter/repo2docker)
 
-You can also launch this repository locally using [Docker](https://docker.com) and [repo2docker](https://github.com/jupyter/repo2docker). Please refer to this [link](https://docs.docker.com/install/) for installing Docker and this [link](https://repo2docker.readthedocs.io/en/latest/install.html#) for installing repo2docker. Use the commands below to **build** a Docker image and start a container from it. 
+You can also launch this laboratory locally using [Docker](https://docker.com) and [repo2docker](https://github.com/jupyter/repo2docker). Please refer to this [link](https://docs.docker.com/install/) for installing Docker and this [link](https://repo2docker.readthedocs.io/en/latest/install.html#) for installing repo2docker. Use the commands below to **build** a Docker image and start a container from it. 
 
 
 ```bash
